@@ -2,13 +2,13 @@
   "name": "mern",
   "version": "1.0.0",
   "description": "mern stack",
+  "main": "app.js",
   "scripts": {
     "start": "node app.js",
     "server": "nodemon app.js",
     "client": "npm run start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
-  "main": "app.js",
   "keywords": [
     "mern",
     "react"
